@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374842225CC97F90062C212 /* PopopopoApp.swift */; };
+		3374842525CC97F90062C212 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374842425CC97F90062C212 /* ContentView.swift */; };
+		3374842725CC97FB0062C212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3374842625CC97FB0062C212 /* Assets.xcassets */; };
+		3374842A25CC97FB0062C212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3374842925CC97FB0062C212 /* Preview Assets.xcassets */; };
+		3374843525CC97FB0062C212 /* PopopopoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374843425CC97FB0062C212 /* PopopopoTests.swift */; };
+		3374844025CC97FB0062C212 /* PopopopoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374843F25CC97FB0062C212 /* PopopopoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3374843125CC97FB0062C212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3374841725CC97F90062C212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3374841E25CC97F90062C212;
+			remoteInfo = Popopopo;
+		};
+		3374843C25CC97FB0062C212 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3374841725CC97F90062C212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3374841E25CC97F90062C212;
+			remoteInfo = Popopopo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3374841F25CC97F90062C212 /* Popopopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popopopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3374842225CC97F90062C212 /* PopopopoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopopoApp.swift; sourceTree = "<group>"; };
+		3374842425CC97F90062C212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3374842625CC97FB0062C212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3374842925CC97FB0062C212 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3374842B25CC97FB0062C212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3374843025CC97FB0062C212 /* PopopopoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopopopoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3374843425CC97FB0062C212 /* PopopopoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopopoTests.swift; sourceTree = "<group>"; };
+		3374843625CC97FB0062C212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3374843B25CC97FB0062C212 /* PopopopoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopopopoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3374843F25CC97FB0062C212 /* PopopopoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopopoUITests.swift; sourceTree = "<group>"; };
+		3374844125CC97FB0062C212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3374841C25CC97F90062C212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3374842D25CC97FB0062C212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3374843825CC97FB0062C212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3374841625CC97F90062C212 = {
+			isa = PBXGroup;
+			children = (
+				3374842125CC97F90062C212 /* Popopopo */,
+				3374843325CC97FB0062C212 /* PopopopoTests */,
+				3374843E25CC97FB0062C212 /* PopopopoUITests */,
+				3374842025CC97F90062C212 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3374842025CC97F90062C212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3374841F25CC97F90062C212 /* Popopopo.app */,
+				3374843025CC97FB0062C212 /* PopopopoTests.xctest */,
+				3374843B25CC97FB0062C212 /* PopopopoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3374842125CC97F90062C212 /* Popopopo */ = {
+			isa = PBXGroup;
+			children = (
+				3374842225CC97F90062C212 /* PopopopoApp.swift */,
+				3374842425CC97F90062C212 /* ContentView.swift */,
+				3374842625CC97FB0062C212 /* Assets.xcassets */,
+				3374842B25CC97FB0062C212 /* Info.plist */,
+				3374842825CC97FB0062C212 /* Preview Content */,
+			);
+			path = Popopopo;
+			sourceTree = "<group>";
+		};
+		3374842825CC97FB0062C212 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3374842925CC97FB0062C212 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3374843325CC97FB0062C212 /* PopopopoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3374843425CC97FB0062C212 /* PopopopoTests.swift */,
+				3374843625CC97FB0062C212 /* Info.plist */,
+			);
+			path = PopopopoTests;
+			sourceTree = "<group>";
+		};
+		3374843E25CC97FB0062C212 /* PopopopoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3374843F25CC97FB0062C212 /* PopopopoUITests.swift */,
+				3374844125CC97FB0062C212 /* Info.plist */,
+			);
+			path = PopopopoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3374841E25CC97F90062C212 /* Popopopo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3374844425CC97FB0062C212 /* Build configuration list for PBXNativeTarget "Popopopo" */;
+			buildPhases = (
+				3374841B25CC97F90062C212 /* Sources */,
+				3374841C25CC97F90062C212 /* Frameworks */,
+				3374841D25CC97F90062C212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Popopopo;
+			productName = Popopopo;
+			productReference = 3374841F25CC97F90062C212 /* Popopopo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3374842F25CC97FB0062C212 /* PopopopoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3374844725CC97FB0062C212 /* Build configuration list for PBXNativeTarget "PopopopoTests" */;
+			buildPhases = (
+				3374842C25CC97FB0062C212 /* Sources */,
+				3374842D25CC97FB0062C212 /* Frameworks */,
+				3374842E25CC97FB0062C212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3374843225CC97FB0062C212 /* PBXTargetDependency */,
+			);
+			name = PopopopoTests;
+			productName = PopopopoTests;
+			productReference = 3374843025CC97FB0062C212 /* PopopopoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3374843A25CC97FB0062C212 /* PopopopoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3374844A25CC97FB0062C212 /* Build configuration list for PBXNativeTarget "PopopopoUITests" */;
+			buildPhases = (
+				3374843725CC97FB0062C212 /* Sources */,
+				3374843825CC97FB0062C212 /* Frameworks */,
+				3374843925CC97FB0062C212 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3374843D25CC97FB0062C212 /* PBXTargetDependency */,
+			);
+			name = PopopopoUITests;
+			productName = PopopopoUITests;
+			productReference = 3374843B25CC97FB0062C212 /* PopopopoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3374841725CC97F90062C212 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3374841E25CC97F90062C212 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3374842F25CC97FB0062C212 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3374841E25CC97F90062C212;
+					};
+					3374843A25CC97FB0062C212 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3374841E25CC97F90062C212;
+					};
+				};
+			};
+			buildConfigurationList = 3374841A25CC97F90062C212 /* Build configuration list for PBXProject "Popopopo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3374841625CC97F90062C212;
+			productRefGroup = 3374842025CC97F90062C212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3374841E25CC97F90062C212 /* Popopopo */,
+				3374842F25CC97FB0062C212 /* PopopopoTests */,
+				3374843A25CC97FB0062C212 /* PopopopoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3374841D25CC97F90062C212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3374842A25CC97FB0062C212 /* Preview Assets.xcassets in Resources */,
+				3374842725CC97FB0062C212 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3374842E25CC97FB0062C212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3374843925CC97FB0062C212 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3374841B25CC97F90062C212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3374842525CC97F90062C212 /* ContentView.swift in Sources */,
+				3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3374842C25CC97FB0062C212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3374843525CC97FB0062C212 /* PopopopoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3374843725CC97FB0062C212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3374844025CC97FB0062C212 /* PopopopoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3374843225CC97FB0062C212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3374841E25CC97F90062C212 /* Popopopo */;
+			targetProxy = 3374843125CC97FB0062C212 /* PBXContainerItemProxy */;
+		};
+		3374843D25CC97FB0062C212 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3374841E25CC97F90062C212 /* Popopopo */;
+			targetProxy = 3374843C25CC97FB0062C212 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3374844225CC97FB0062C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3374844325CC97FB0062C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3374844525CC97FB0062C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Popopopo/Preview Content\"";
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Popopopo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3374844625CC97FB0062C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Popopopo/Preview Content\"";
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Popopopo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3374844825CC97FB0062C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopopoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.PopopopoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popopopo.app/Popopopo";
+			};
+			name = Debug;
+		};
+		3374844925CC97FB0062C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopopoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.PopopopoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popopopo.app/Popopopo";
+			};
+			name = Release;
+		};
+		3374844B25CC97FB0062C212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopopoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.PopopopoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Popopopo;
+			};
+			name = Debug;
+		};
+		3374844C25CC97FB0062C212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopopoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.PopopopoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Popopopo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3374841A25CC97F90062C212 /* Build configuration list for PBXProject "Popopopo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3374844225CC97FB0062C212 /* Debug */,
+				3374844325CC97FB0062C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3374844425CC97FB0062C212 /* Build configuration list for PBXNativeTarget "Popopopo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3374844525CC97FB0062C212 /* Debug */,
+				3374844625CC97FB0062C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3374844725CC97FB0062C212 /* Build configuration list for PBXNativeTarget "PopopopoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3374844825CC97FB0062C212 /* Debug */,
+				3374844925CC97FB0062C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3374844A25CC97FB0062C212 /* Build configuration list for PBXNativeTarget "PopopopoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3374844B25CC97FB0062C212 /* Debug */,
+				3374844C25CC97FB0062C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3374841725CC97F90062C212 /* Project object */;
+}
