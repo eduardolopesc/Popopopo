@@ -13,6 +13,15 @@
 		3374842A25CC97FB0062C212 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3374842925CC97FB0062C212 /* Preview Assets.xcassets */; };
 		3374843525CC97FB0062C212 /* PopopopoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374843425CC97FB0062C212 /* PopopopoTests.swift */; };
 		3374844025CC97FB0062C212 /* PopopopoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374843F25CC97FB0062C212 /* PopopopoUITests.swift */; };
+		3391CF6225D3064900447054 /* PopopoClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF6125D3064900447054 /* PopopoClipApp.swift */; };
+		3391CF6425D3064900447054 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF6325D3064900447054 /* ContentView.swift */; };
+		3391CF6625D3064A00447054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3391CF6525D3064A00447054 /* Assets.xcassets */; };
+		3391CF6925D3064A00447054 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3391CF6825D3064A00447054 /* Preview Assets.xcassets */; };
+		3391CF7525D3064A00447054 /* PopopoClipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF7425D3064A00447054 /* PopopoClipTests.swift */; };
+		3391CF8025D3064A00447054 /* PopopoClipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF7F25D3064A00447054 /* PopopoClipUITests.swift */; };
+		3391CF8425D3064A00447054 /* PopopoClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 3391CF5F25D3064900447054 /* PopopoClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3391CF9625D3067200447054 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF9525D3067200447054 /* CommonView.swift */; };
+		3391CF9725D3067200447054 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF9525D3067200447054 /* CommonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +39,42 @@
 			remoteGlobalIDString = 3374841E25CC97F90062C212;
 			remoteInfo = Popopopo;
 		};
+		3391CF7125D3064A00447054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3374841725CC97F90062C212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3391CF5E25D3064900447054;
+			remoteInfo = PopopoClip;
+		};
+		3391CF7C25D3064A00447054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3374841725CC97F90062C212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3391CF5E25D3064900447054;
+			remoteInfo = PopopoClip;
+		};
+		3391CF8225D3064A00447054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3374841725CC97F90062C212 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3391CF5E25D3064900447054;
+			remoteInfo = PopopoClip;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3391CF8525D3064A00447054 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				3391CF8425D3064A00447054 /* PopopoClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3374841F25CC97F90062C212 /* Popopopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popopopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +89,20 @@
 		3374843B25CC97FB0062C212 /* PopopopoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopopopoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3374843F25CC97FB0062C212 /* PopopopoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopopoUITests.swift; sourceTree = "<group>"; };
 		3374844125CC97FB0062C212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3391CF5F25D3064900447054 /* PopopoClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopopoClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3391CF6125D3064900447054 /* PopopoClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopoClipApp.swift; sourceTree = "<group>"; };
+		3391CF6325D3064900447054 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3391CF6525D3064A00447054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3391CF6825D3064A00447054 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3391CF6A25D3064A00447054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3391CF6B25D3064A00447054 /* PopopoClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopopoClip.entitlements; sourceTree = "<group>"; };
+		3391CF7025D3064A00447054 /* PopopoClipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopopoClipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3391CF7425D3064A00447054 /* PopopoClipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopoClipTests.swift; sourceTree = "<group>"; };
+		3391CF7625D3064A00447054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3391CF7B25D3064A00447054 /* PopopoClipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopopoClipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3391CF7F25D3064A00447054 /* PopopoClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopoClipUITests.swift; sourceTree = "<group>"; };
+		3391CF8125D3064A00447054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3391CF9525D3067200447054 /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +127,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3391CF5C25D3064900447054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3391CF6D25D3064A00447054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3391CF7825D3064A00447054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +157,9 @@
 				3374842125CC97F90062C212 /* Popopopo */,
 				3374843325CC97FB0062C212 /* PopopopoTests */,
 				3374843E25CC97FB0062C212 /* PopopopoUITests */,
+				3391CF6025D3064900447054 /* PopopoClip */,
+				3391CF7325D3064A00447054 /* PopopoClipTests */,
+				3391CF7E25D3064A00447054 /* PopopoClipUITests */,
 				3374842025CC97F90062C212 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +170,9 @@
 				3374841F25CC97F90062C212 /* Popopopo.app */,
 				3374843025CC97FB0062C212 /* PopopopoTests.xctest */,
 				3374843B25CC97FB0062C212 /* PopopopoUITests.xctest */,
+				3391CF5F25D3064900447054 /* PopopoClip.app */,
+				3391CF7025D3064A00447054 /* PopopoClipTests.xctest */,
+				3391CF7B25D3064A00447054 /* PopopoClipUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +185,7 @@
 				3374842625CC97FB0062C212 /* Assets.xcassets */,
 				3374842B25CC97FB0062C212 /* Info.plist */,
 				3374842825CC97FB0062C212 /* Preview Content */,
+				3391CF9525D3067200447054 /* CommonView.swift */,
 			);
 			path = Popopopo;
 			sourceTree = "<group>";
@@ -130,6 +216,45 @@
 			path = PopopopoUITests;
 			sourceTree = "<group>";
 		};
+		3391CF6025D3064900447054 /* PopopoClip */ = {
+			isa = PBXGroup;
+			children = (
+				3391CF6125D3064900447054 /* PopopoClipApp.swift */,
+				3391CF6325D3064900447054 /* ContentView.swift */,
+				3391CF6525D3064A00447054 /* Assets.xcassets */,
+				3391CF6A25D3064A00447054 /* Info.plist */,
+				3391CF6B25D3064A00447054 /* PopopoClip.entitlements */,
+				3391CF6725D3064A00447054 /* Preview Content */,
+			);
+			path = PopopoClip;
+			sourceTree = "<group>";
+		};
+		3391CF6725D3064A00447054 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3391CF6825D3064A00447054 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3391CF7325D3064A00447054 /* PopopoClipTests */ = {
+			isa = PBXGroup;
+			children = (
+				3391CF7425D3064A00447054 /* PopopoClipTests.swift */,
+				3391CF7625D3064A00447054 /* Info.plist */,
+			);
+			path = PopopoClipTests;
+			sourceTree = "<group>";
+		};
+		3391CF7E25D3064A00447054 /* PopopoClipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3391CF7F25D3064A00447054 /* PopopoClipUITests.swift */,
+				3391CF8125D3064A00447054 /* Info.plist */,
+			);
+			path = PopopoClipUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,10 +265,12 @@
 				3374841B25CC97F90062C212 /* Sources */,
 				3374841C25CC97F90062C212 /* Frameworks */,
 				3374841D25CC97F90062C212 /* Resources */,
+				3391CF8525D3064A00447054 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3391CF8325D3064A00447054 /* PBXTargetDependency */,
 			);
 			name = Popopopo;
 			productName = Popopopo;
@@ -186,6 +313,59 @@
 			productReference = 3374843B25CC97FB0062C212 /* PopopopoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		3391CF5E25D3064900447054 /* PopopoClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3391CF8C25D3064A00447054 /* Build configuration list for PBXNativeTarget "PopopoClip" */;
+			buildPhases = (
+				3391CF5B25D3064900447054 /* Sources */,
+				3391CF5C25D3064900447054 /* Frameworks */,
+				3391CF5D25D3064900447054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopopoClip;
+			productName = PopopoClip;
+			productReference = 3391CF5F25D3064900447054 /* PopopoClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
+		3391CF6F25D3064A00447054 /* PopopoClipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3391CF8D25D3064A00447054 /* Build configuration list for PBXNativeTarget "PopopoClipTests" */;
+			buildPhases = (
+				3391CF6C25D3064A00447054 /* Sources */,
+				3391CF6D25D3064A00447054 /* Frameworks */,
+				3391CF6E25D3064A00447054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3391CF7225D3064A00447054 /* PBXTargetDependency */,
+			);
+			name = PopopoClipTests;
+			productName = PopopoClipTests;
+			productReference = 3391CF7025D3064A00447054 /* PopopoClipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3391CF7A25D3064A00447054 /* PopopoClipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3391CF8E25D3064A00447054 /* Build configuration list for PBXNativeTarget "PopopoClipUITests" */;
+			buildPhases = (
+				3391CF7725D3064A00447054 /* Sources */,
+				3391CF7825D3064A00447054 /* Frameworks */,
+				3391CF7925D3064A00447054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3391CF7D25D3064A00447054 /* PBXTargetDependency */,
+			);
+			name = PopopoClipUITests;
+			productName = PopopoClipUITests;
+			productReference = 3391CF7B25D3064A00447054 /* PopopoClipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +386,17 @@
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 3374841E25CC97F90062C212;
 					};
+					3391CF5E25D3064900447054 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3391CF6F25D3064A00447054 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3391CF5E25D3064900447054;
+					};
+					3391CF7A25D3064A00447054 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3391CF5E25D3064900447054;
+					};
 				};
 			};
 			buildConfigurationList = 3374841A25CC97F90062C212 /* Build configuration list for PBXProject "Popopopo" */;
@@ -224,6 +415,9 @@
 				3374841E25CC97F90062C212 /* Popopopo */,
 				3374842F25CC97FB0062C212 /* PopopopoTests */,
 				3374843A25CC97FB0062C212 /* PopopopoUITests */,
+				3391CF5E25D3064900447054 /* PopopoClip */,
+				3391CF6F25D3064A00447054 /* PopopoClipTests */,
+				3391CF7A25D3064A00447054 /* PopopoClipUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,6 +446,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3391CF5D25D3064900447054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3391CF6925D3064A00447054 /* Preview Assets.xcassets in Resources */,
+				3391CF6625D3064A00447054 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3391CF6E25D3064A00447054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3391CF7925D3064A00447054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,6 +478,7 @@
 			files = (
 				3374842525CC97F90062C212 /* ContentView.swift in Sources */,
 				3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */,
+				3391CF9625D3067200447054 /* CommonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +498,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3391CF5B25D3064900447054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3391CF6425D3064900447054 /* ContentView.swift in Sources */,
+				3391CF6225D3064900447054 /* PopopoClipApp.swift in Sources */,
+				3391CF9725D3067200447054 /* CommonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3391CF6C25D3064A00447054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3391CF7525D3064A00447054 /* PopopoClipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3391CF7725D3064A00447054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3391CF8025D3064A00447054 /* PopopoClipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +536,21 @@
 			isa = PBXTargetDependency;
 			target = 3374841E25CC97F90062C212 /* Popopopo */;
 			targetProxy = 3374843C25CC97FB0062C212 /* PBXContainerItemProxy */;
+		};
+		3391CF7225D3064A00447054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3391CF5E25D3064900447054 /* PopopoClip */;
+			targetProxy = 3391CF7125D3064A00447054 /* PBXContainerItemProxy */;
+		};
+		3391CF7D25D3064A00447054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3391CF5E25D3064900447054 /* PopopoClip */;
+			targetProxy = 3391CF7C25D3064A00447054 /* PBXContainerItemProxy */;
+		};
+		3391CF8325D3064A00447054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3391CF5E25D3064900447054 /* PopopoClip */;
+			targetProxy = 3391CF8225D3064A00447054 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,6 +674,7 @@
 		3374844525CC97FB0062C212 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -437,6 +697,7 @@
 		3374844625CC97FB0062C212 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +801,136 @@
 			};
 			name = Release;
 		};
+		3391CF8625D3064A00447054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PopopoClip/PopopoClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PopopoClip/Preview Content\"";
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PopopoClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3391CF8725D3064A00447054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PopopoClip/PopopoClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PopopoClip/Preview Content\"";
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PopopoClip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3391CF8825D3064A00447054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopoClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo.PopopoClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopopoClip.app/PopopoClip";
+			};
+			name = Debug;
+		};
+		3391CF8925D3064A00447054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopoClipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo.PopopoClipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PopopoClip.app/PopopoClip";
+			};
+			name = Release;
+		};
+		3391CF8A25D3064A00447054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopoClipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo.PopopoClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopopoClip;
+			};
+			name = Debug;
+		};
+		3391CF8B25D3064A00447054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q78APJ5PNP;
+				INFOPLIST_FILE = PopopoClipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = elc.Popopopo.PopopoClipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PopopoClip;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -575,6 +966,33 @@
 			buildConfigurations = (
 				3374844B25CC97FB0062C212 /* Debug */,
 				3374844C25CC97FB0062C212 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3391CF8C25D3064A00447054 /* Build configuration list for PBXNativeTarget "PopopoClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3391CF8625D3064A00447054 /* Debug */,
+				3391CF8725D3064A00447054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3391CF8D25D3064A00447054 /* Build configuration list for PBXNativeTarget "PopopoClipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3391CF8825D3064A00447054 /* Debug */,
+				3391CF8925D3064A00447054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3391CF8E25D3064A00447054 /* Build configuration list for PBXNativeTarget "PopopoClipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3391CF8A25D3064A00447054 /* Debug */,
+				3391CF8B25D3064A00447054 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
