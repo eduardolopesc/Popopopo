@@ -10,22 +10,72 @@ import SwiftUI
 struct CommonView: View {
     @State var soundButton = false
     @State var showMenu = false
-
+    @State var showSombrinha = false
+    @State var showLatinha = false
+    @State var showOculos = false
+    @State var showEstandarte = false
+    @State var showOlhos = false
+    @State var showBico = false
+    
     var body: some View {
         ZStack{
             Image("backgroundImage")
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
+            
+            Image("Sombrinha")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 55, height: 55)
+                .position(x: 50, y: 50)
+                .opacity(self.showSombrinha ? 1 : 0)
+            
+            
+            Image("Latinha")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 55, height: 55)
+                .position(x: 100, y: 50)
+                .opacity(self.showLatinha ? 1 : 0)
+            
+            
+            Image("Oculos")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 55, height: 55)
+                .position(x: 50, y: 100)
+                .opacity(self.showOculos ? 1 : 0)
+            
+            
+            Image("Estandarte")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 55, height: 55)
+                .position(x: 150, y: 50)
+                .opacity(self.showEstandarte ? 1 : 0)
+            
+            Image("Olhos")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 55, height: 55)
+                .position(x: 150, y: 50)
+                .opacity(self.showOlhos ? 1 : 0)
 
+            Image("Bico")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 55, height: 55)
+                .position(x: 150, y: 100)
+                .opacity(self.showBico ? 1 : 0)
+            
             HStack{
                 VStack(alignment: .leading){
                     Button(action: {
                         self.soundButton.toggle()
                        
                             SoundPopup(soundButton: $soundButton)
-
-                        
+    
                         
                     }, label: {
                         Image(systemName: "speaker.wave.2")
@@ -45,7 +95,7 @@ struct CommonView: View {
                 VStack{
                     ItemsButton(showMenu: $showMenu)
                         .padding([.top, .leading, .bottom])
-                    Menu().offset(x: self.showMenu ? 0 : UIScreen.main.bounds.width)
+                    Menu(showSombrinha: $showSombrinha, showLatinha: $showLatinha, showOculos: $showOculos, showEstandarte: $showEstandarte, showOlhos: $showOlhos, showBico: $showBico).offset(x: self.showMenu ? 0 : UIScreen.main.bounds.width)
                         .animation(.easeInOut)
 
                     Spacer()
@@ -58,64 +108,7 @@ struct CommonView: View {
     }
 }
 
-struct Menu: View {
-    var body: some View {
-        VStack{
-            ScrollView{
-                Button(action: {
-                    
-                }){
-                    VStack(){
-                        Image("Sombrinha")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 55, height: 55)
-                            .shadow(radius: 5)
-                        Text("Sombrinha")
-                            .font(.caption)
-                            .foregroundColor(Color("darkColor"))
-        
-                    }
-                }.padding([.top, .leading, .trailing])
-           
-                Button(action: {
-                 
-                }){
-                    VStack(){
-                        Image("Sombrinha")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 55, height: 55)
-                            .shadow(radius: 5)
-                        Text("Sombrinha")
-                            .font(.caption)
-                            .foregroundColor(Color("darkColor"))
-                    }
-                }.padding([.top, .leading, .trailing])
-                Button(action: {
-             
-                    
-                }){
-                    VStack(){
-                        Image("Sombrinha")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 55, height: 55)
-                            .shadow(radius: 5)
-                        Text("Sombrinha")
-                            .font(.caption)
-                            .foregroundColor(Color("darkColor"))
-                    }
-                }.padding([.top, .leading, .trailing])
-               // Spacer()
-            }
-         
-        }.background(Color("lightColor"))
-        .cornerRadius(5)
-    
-   
-    }
-}
+
 
 struct HelpButton: View {
     var body: some View {
@@ -167,6 +160,7 @@ struct ItemsButton: View {
 
     }
 }
+
 struct CommonView_Previews: PreviewProvider {
     static var previews: some View {
         CommonView().previewDevice("iPhone 11").previewLayout(.fixed(width: /*@START_MENU_TOKEN@*/896.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/414.0/*@END_MENU_TOKEN@*/))

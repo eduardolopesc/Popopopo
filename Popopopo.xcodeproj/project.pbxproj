@@ -28,6 +28,8 @@
 		47B45DDD25D467FB005AFF8E /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45DDC25D467FB005AFF8E /* teste.swift */; };
 		47B45DE525D484C7005AFF8E /* HelpPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45DE425D484C7005AFF8E /* HelpPopup.swift */; };
 		47B45DE625D484C7005AFF8E /* HelpPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45DE425D484C7005AFF8E /* HelpPopup.swift */; };
+		47B45E1725D5ADFB005AFF8E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45E1625D5ADFB005AFF8E /* MenuView.swift */; };
+		47B45E1825D5ADFB005AFF8E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45E1625D5ADFB005AFF8E /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,7 @@
 		478EA89C25D44D6B00F818B2 /* SoundPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPopup.swift; sourceTree = "<group>"; };
 		47B45DDC25D467FB005AFF8E /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
 		47B45DE425D484C7005AFF8E /* HelpPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPopup.swift; sourceTree = "<group>"; };
+		47B45E1625D5ADFB005AFF8E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,7 @@
 				3374842825CC97FB0062C212 /* Preview Content */,
 				3391CF9525D3067200447054 /* CommonView.swift */,
 				3391CFA425D58D1100447054 /* PlaySounds.swift */,
+				47B45E1625D5ADFB005AFF8E /* MenuView.swift */,
 				47B45DE425D484C7005AFF8E /* HelpPopup.swift */,
 				478EA89C25D44D6B00F818B2 /* SoundPopup.swift */,
 			);
@@ -491,6 +495,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478EA89D25D44D6B00F818B2 /* SoundPopup.swift in Sources */,
+				47B45E1725D5ADFB005AFF8E /* MenuView.swift in Sources */,
 				3374842525CC97F90062C212 /* ContentView.swift in Sources */,
 				47B45DDD25D467FB005AFF8E /* teste.swift in Sources */,
 				3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */,
@@ -521,6 +526,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478EA89E25D44D6B00F818B2 /* SoundPopup.swift in Sources */,
+				47B45E1825D5ADFB005AFF8E /* MenuView.swift in Sources */,
 				3391CF6425D3064900447054 /* ContentView.swift in Sources */,
 				3391CF6225D3064900447054 /* PopopoClipApp.swift in Sources */,
 				47B45DE625D484C7005AFF8E /* HelpPopup.swift in Sources */,
