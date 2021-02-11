@@ -36,8 +36,8 @@ struct CommonView: View {
             Image("Sombrinha")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 55, height: 55)
-                .position(x: 50, y: 50)
+                .frame(width: 219.85 , height: 222.37)
+                .position(x: 140.84, y: 50.21)
                 .opacity(self.showSombrinha ? 1 : 0)
             
             
@@ -83,7 +83,6 @@ struct CommonView: View {
                     Button(action: {
                         self.soundButton.toggle()
                        
-                            SoundPopup(soundButton: $soundButton)
     
                         
                     }, label: {

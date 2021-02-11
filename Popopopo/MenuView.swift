@@ -48,7 +48,7 @@ struct Menu: View {
                             .shadow(radius: self.showSombrinha ? 0 : 5)
                             .opacity(self.showSombrinha ? 0.5 : 1 )
                         Text("Sombrinha")
-                            .font(.caption)
+                            .font(Font.custom("Poppins-Regular", size: 12))
                             .foregroundColor(Color("darkColor"))
         
                     }
@@ -75,7 +75,7 @@ struct Menu: View {
                             .opacity(self.showLatinha ? 0.5 : 1 )
                             .shadow(radius: 5)
                         Text("Latinha")
-                            .font(.caption)
+                            .font(Font.custom("Poppins-Regular", size: 12))
                             .foregroundColor(Color("darkColor"))
                     }
                 }.padding([.top, .leading, .trailing])
@@ -100,7 +100,7 @@ struct Menu: View {
                             .shadow(radius: self.showOculos ? 0 : 5)
                             .opacity(self.showOculos ? 0.5 : 1 )
                         Text("Óculos")
-                            .font(.caption)
+                            .font(Font.custom("Poppins-Regular", size: 12))
                             .foregroundColor(Color("darkColor"))
                     }
                     
@@ -128,7 +128,7 @@ struct Menu: View {
                             .shadow(radius: $showEstandarte.wrappedValue ? 0 : 5)
                             .opacity($showEstandarte.wrappedValue ? 0.5 : 1 )
                         Text("Estandarte")
-                            .font(.caption)
+                            .font(Font.custom("Poppins-Regular", size: 12))
                             .foregroundColor(Color("darkColor"))
                     }
                     
@@ -156,7 +156,7 @@ struct Menu: View {
                             .shadow(radius: $showOlhos.wrappedValue ? 0 : 5)
                             .opacity($showOlhos.wrappedValue ? 0.5 : 1 )
                         Text("Olhos")
-                            .font(.caption)
+                            .font(Font.custom("Poppins-Regular", size: 12))
                             .foregroundColor(Color("darkColor"))
                     }
                     
@@ -184,7 +184,7 @@ struct Menu: View {
                             .shadow(radius: $showBico.wrappedValue ? 0 : 5)
                             .opacity($showBico.wrappedValue ? 0.5 : 1 )
                         Text("Bico")
-                            .font(.caption)
+                            .font(Font.custom("Poppins-Regular", size: 12))
                             .foregroundColor(Color("darkColor"))
                     }
                     
