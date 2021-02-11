@@ -22,6 +22,7 @@
 		3391CF8425D3064A00447054 /* PopopoClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = 3391CF5F25D3064900447054 /* PopopoClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3391CF9625D3067200447054 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF9525D3067200447054 /* CommonView.swift */; };
 		3391CF9725D3067200447054 /* CommonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CF9525D3067200447054 /* CommonView.swift */; };
+		3391CFA525D58D1100447054 /* PlaySounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CFA425D58D1100447054 /* PlaySounds.swift */; };
 		478EA89D25D44D6B00F818B2 /* SoundPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EA89C25D44D6B00F818B2 /* SoundPopup.swift */; };
 		478EA89E25D44D6B00F818B2 /* SoundPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EA89C25D44D6B00F818B2 /* SoundPopup.swift */; };
 		47B45DDD25D467FB005AFF8E /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45DDC25D467FB005AFF8E /* teste.swift */; };
@@ -108,6 +109,7 @@
 		3391CF7F25D3064A00447054 /* PopopoClipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopoClipUITests.swift; sourceTree = "<group>"; };
 		3391CF8125D3064A00447054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3391CF9525D3067200447054 /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
+		3391CFA425D58D1100447054 /* PlaySounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySounds.swift; sourceTree = "<group>"; };
 		478EA89C25D44D6B00F818B2 /* SoundPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPopup.swift; sourceTree = "<group>"; };
 		47B45DDC25D467FB005AFF8E /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
 		47B45DE425D484C7005AFF8E /* HelpPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPopup.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				47B45DDC25D467FB005AFF8E /* teste.swift */,
 				3374842825CC97FB0062C212 /* Preview Content */,
 				3391CF9525D3067200447054 /* CommonView.swift */,
+				3391CFA425D58D1100447054 /* PlaySounds.swift */,
 				47B45DE425D484C7005AFF8E /* HelpPopup.swift */,
 				478EA89C25D44D6B00F818B2 /* SoundPopup.swift */,
 			);
@@ -492,6 +495,7 @@
 				47B45DDD25D467FB005AFF8E /* teste.swift in Sources */,
 				3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */,
 				3391CF9625D3067200447054 /* CommonView.swift in Sources */,
+				3391CFA525D58D1100447054 /* PlaySounds.swift in Sources */,
 				47B45DE525D484C7005AFF8E /* HelpPopup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
