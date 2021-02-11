@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct CommonView: View {
     @State var soundButton = false
@@ -16,6 +17,8 @@ struct CommonView: View {
     @State var showEstandarte = false
     @State var showOlhos = false
     @State var showBico = false
+    @State var audioPlayerfrevo: AVAudioPlayer!
+
     
     var body: some View {
         ZStack{
@@ -23,6 +26,12 @@ struct CommonView: View {
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
+                .onAppear(perform: {
+                    playSoundfrevo("frevo.mp3")
+                    audioPlayerfrevo.numberOfLoops = -1
+                    audioPlayerfrevo.setVolume(0.9, fadeDuration: 0)
+
+                })
             
             Image("Sombrinha")
                 .resizable()
@@ -105,6 +114,20 @@ struct CommonView: View {
             }
             
         }
+    }
+
+    func playSoundfrevo(_ soundFileName : String) {
+        guard let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: nil) else {
+            fatalError("Unable to find \(soundFileName) in bundle")
+        }
+
+        do {
+            audioPlayerfrevo = try AVAudioPlayer(contentsOf: soundURL)
+        } catch {
+            print(error.localizedDescription)
+        }
+        audioPlayerfrevo.prepareToPlay()
+        audioPlayerfrevo.play()
     }
 }
 

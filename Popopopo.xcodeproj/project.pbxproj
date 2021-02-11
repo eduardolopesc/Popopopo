@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332446AF25D5CA1300A1D8ED /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446A925D5CA1200A1D8ED /* 6.mp3 */; };
+		332446B025D5CA1300A1D8ED /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446A925D5CA1200A1D8ED /* 6.mp3 */; };
+		332446B125D5CA1300A1D8ED /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AA25D5CA1300A1D8ED /* 1.mp3 */; };
+		332446B225D5CA1300A1D8ED /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AA25D5CA1300A1D8ED /* 1.mp3 */; };
+		332446B325D5CA1300A1D8ED /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AB25D5CA1300A1D8ED /* 4.mp3 */; };
+		332446B425D5CA1300A1D8ED /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AB25D5CA1300A1D8ED /* 4.mp3 */; };
+		332446B525D5CA1300A1D8ED /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AC25D5CA1300A1D8ED /* 3.mp3 */; };
+		332446B625D5CA1300A1D8ED /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AC25D5CA1300A1D8ED /* 3.mp3 */; };
+		332446B725D5CA1300A1D8ED /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AD25D5CA1300A1D8ED /* 2.mp3 */; };
+		332446B825D5CA1300A1D8ED /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AD25D5CA1300A1D8ED /* 2.mp3 */; };
+		332446B925D5CA1300A1D8ED /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AE25D5CA1300A1D8ED /* 5.mp3 */; };
+		332446BA25D5CA1300A1D8ED /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AE25D5CA1300A1D8ED /* 5.mp3 */; };
+		332446C225D5CA3100A1D8ED /* frevo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446C125D5CA3100A1D8ED /* frevo.mp3 */; };
+		332446C325D5CA3100A1D8ED /* frevo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446C125D5CA3100A1D8ED /* frevo.mp3 */; };
 		3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374842225CC97F90062C212 /* PopopopoApp.swift */; };
 		3374842525CC97F90062C212 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374842425CC97F90062C212 /* ContentView.swift */; };
 		3374842725CC97FB0062C212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3374842625CC97FB0062C212 /* Assets.xcassets */; };
@@ -85,6 +99,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		332446A925D5CA1200A1D8ED /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		332446AA25D5CA1300A1D8ED /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		332446AB25D5CA1300A1D8ED /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		332446AC25D5CA1300A1D8ED /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		332446AD25D5CA1300A1D8ED /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		332446AE25D5CA1300A1D8ED /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		332446C125D5CA3100A1D8ED /* frevo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frevo.mp3; sourceTree = "<group>"; };
 		3374841F25CC97F90062C212 /* Popopopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popopopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3374842225CC97F90062C212 /* PopopopoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopopoApp.swift; sourceTree = "<group>"; };
 		3374842425CC97F90062C212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -164,6 +185,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332446A825D5C9FF00A1D8ED /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				332446AA25D5CA1300A1D8ED /* 1.mp3 */,
+				332446AD25D5CA1300A1D8ED /* 2.mp3 */,
+				332446AC25D5CA1300A1D8ED /* 3.mp3 */,
+				332446AB25D5CA1300A1D8ED /* 4.mp3 */,
+				332446AE25D5CA1300A1D8ED /* 5.mp3 */,
+				332446A925D5CA1200A1D8ED /* 6.mp3 */,
+				332446C125D5CA3100A1D8ED /* frevo.mp3 */,
+			);
+			path = audios;
+			sourceTree = "<group>";
+		};
 		3374841625CC97F90062C212 = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +232,7 @@
 				3374842425CC97F90062C212 /* ContentView.swift */,
 				3374842625CC97FB0062C212 /* Assets.xcassets */,
 				3374842B25CC97FB0062C212 /* Info.plist */,
+				332446A825D5C9FF00A1D8ED /* audios */,
 				47B45DDC25D467FB005AFF8E /* teste.swift */,
 				3374842825CC97FB0062C212 /* Preview Content */,
 				3391CF9525D3067200447054 /* CommonView.swift */,
@@ -445,7 +481,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332446B925D5CA1300A1D8ED /* 5.mp3 in Resources */,
+				332446B525D5CA1300A1D8ED /* 3.mp3 in Resources */,
+				332446B125D5CA1300A1D8ED /* 1.mp3 in Resources */,
+				332446AF25D5CA1300A1D8ED /* 6.mp3 in Resources */,
 				3374842A25CC97FB0062C212 /* Preview Assets.xcassets in Resources */,
+				332446C225D5CA3100A1D8ED /* frevo.mp3 in Resources */,
+				332446B325D5CA1300A1D8ED /* 4.mp3 in Resources */,
+				332446B725D5CA1300A1D8ED /* 2.mp3 in Resources */,
 				3374842725CC97FB0062C212 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,7 +511,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332446BA25D5CA1300A1D8ED /* 5.mp3 in Resources */,
+				332446B625D5CA1300A1D8ED /* 3.mp3 in Resources */,
+				332446B225D5CA1300A1D8ED /* 1.mp3 in Resources */,
+				332446B025D5CA1300A1D8ED /* 6.mp3 in Resources */,
 				3391CF6925D3064A00447054 /* Preview Assets.xcassets in Resources */,
+				332446C325D5CA3100A1D8ED /* frevo.mp3 in Resources */,
+				332446B425D5CA1300A1D8ED /* 4.mp3 in Resources */,
+				332446B825D5CA1300A1D8ED /* 2.mp3 in Resources */,
 				3391CF6625D3064A00447054 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
