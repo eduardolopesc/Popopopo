@@ -61,43 +61,58 @@ struct CommonView: View {
 struct Menu: View {
     var body: some View {
         VStack{
-            Button(action: {
-                Image(systemName: "questionmark.circle")
-                    .foregroundColor(Color("darkColor"))
-                    .padding(8)
-                
-            }){
-                VStack(spacing:8){
-                    Image(systemName: "paperplane")
-                        .frame(width: 55, height: 55)
-                }
+            ScrollView{
+                Button(action: {
+                    
+                }){
+                    VStack(){
+                        Image("Sombrinha")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 55, height: 55)
+                            .shadow(radius: 5)
+                        Text("Sombrinha")
+                            .font(.caption)
+                            .foregroundColor(Color("darkColor"))
+        
+                    }
+                }.padding([.top, .leading, .trailing])
+           
+                Button(action: {
+                 
+                }){
+                    VStack(){
+                        Image("Sombrinha")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 55, height: 55)
+                            .shadow(radius: 5)
+                        Text("Sombrinha")
+                            .font(.caption)
+                            .foregroundColor(Color("darkColor"))
+                    }
+                }.padding([.top, .leading, .trailing])
+                Button(action: {
+             
+                    
+                }){
+                    VStack(){
+                        Image("Sombrinha")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 55, height: 55)
+                            .shadow(radius: 5)
+                        Text("Sombrinha")
+                            .font(.caption)
+                            .foregroundColor(Color("darkColor"))
+                    }
+                }.padding([.top, .leading, .trailing])
+               // Spacer()
             }
-       
-            Button(action: {
-                Image(systemName: "questionmark.circle")
-                    .foregroundColor(Color("darkColor"))
-                    .padding(8)
-                
-            }){
-                VStack(spacing:8){
-                    Image(systemName: "paperplane")
-                        .frame(width: 55, height: 55)
-                }
-            }
-            Button(action: {
-                Image(systemName: "questionmark.circle")
-                    .foregroundColor(Color("darkColor"))
-                    .padding(8)
-                
-            }){
-                VStack(spacing:8){
-                    Image(systemName: "paperplane")
-                        .frame(width: 55, height: 55)
-                }
-            }
-            Spacer()
+         
         }.background(Color("lightColor"))
         .cornerRadius(5)
+    
    
     }
 }
