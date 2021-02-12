@@ -22,7 +22,7 @@ struct CommonView: View {
     
     var body: some View {
         ZStack{
-            Image("backgroundImage")
+            Image("FundoTela")
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
@@ -36,46 +36,54 @@ struct CommonView: View {
             Image("Sombrinha")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 219.85 , height: 222.37)
-                .position(x: 140.84, y: 50.21)
+                .frame(width: 112 , height: 112)
+                .position(x: 676.45, y: 246.20)
                 .opacity(self.showSombrinha ? 1 : 0)
             
             
             Image("Latinha")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 55, height: 55)
-                .position(x: 100, y: 50)
+                .frame(width: 154.25, height: 125)
+                .rotationEffect(Angle(degrees: -60))
+                .position(x: 184.80, y: 320.33)
+               
                 .opacity(self.showLatinha ? 1 : 0)
+               
+                
             
             
             Image("Oculos")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 55, height: 55)
-                .position(x: 50, y: 100)
+                .frame(width: 190, height: 124)
+                .rotationEffect(Angle(degrees: -21))
+                .position(x: 287.5, y: 83.5)
                 .opacity(self.showOculos ? 1 : 0)
             
             
             Image("Estandarte")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 55, height: 55)
-                .position(x: 150, y: 50)
+                .frame(width: 154, height: 242)
+                .rotationEffect(Angle(degrees: -19))
+                .position(x: 80, y: 140)
                 .opacity(self.showEstandarte ? 1 : 0)
             
             Image("Olhos")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 55, height: 55)
-                .position(x: 150, y: 50)
+                .frame(width: 113, height: 87)
+                .rotationEffect(Angle(degrees: 21))
+                .position(x: 595, y: 347)
                 .opacity(self.showOlhos ? 1 : 0)
 
             Image("Bico")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 55, height: 55)
-                .position(x: 150, y: 100)
+                .frame(width: 139, height: 145)
+                .rotationEffect(Angle(degrees: -42))
+                .position(x: 593, y: 70)
                 .opacity(self.showBico ? 1 : 0)
             
             HStack{
@@ -83,6 +91,7 @@ struct CommonView: View {
                     Button(action: {
                         self.soundButton.toggle()
                        
+                           // SoundPopup(soundButton: $soundButton)
     
                         
                     }, label: {
