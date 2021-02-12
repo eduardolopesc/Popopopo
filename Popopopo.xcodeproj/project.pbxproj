@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332446AF25D5CA1300A1D8ED /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446A925D5CA1200A1D8ED /* 6.mp3 */; };
+		332446B025D5CA1300A1D8ED /* 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446A925D5CA1200A1D8ED /* 6.mp3 */; };
+		332446B125D5CA1300A1D8ED /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AA25D5CA1300A1D8ED /* 1.mp3 */; };
+		332446B225D5CA1300A1D8ED /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AA25D5CA1300A1D8ED /* 1.mp3 */; };
+		332446B325D5CA1300A1D8ED /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AB25D5CA1300A1D8ED /* 4.mp3 */; };
+		332446B425D5CA1300A1D8ED /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AB25D5CA1300A1D8ED /* 4.mp3 */; };
+		332446B525D5CA1300A1D8ED /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AC25D5CA1300A1D8ED /* 3.mp3 */; };
+		332446B625D5CA1300A1D8ED /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AC25D5CA1300A1D8ED /* 3.mp3 */; };
+		332446B725D5CA1300A1D8ED /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AD25D5CA1300A1D8ED /* 2.mp3 */; };
+		332446B825D5CA1300A1D8ED /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AD25D5CA1300A1D8ED /* 2.mp3 */; };
+		332446B925D5CA1300A1D8ED /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AE25D5CA1300A1D8ED /* 5.mp3 */; };
+		332446BA25D5CA1300A1D8ED /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446AE25D5CA1300A1D8ED /* 5.mp3 */; };
+		332446C225D5CA3100A1D8ED /* frevo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446C125D5CA3100A1D8ED /* frevo.mp3 */; };
+		332446C325D5CA3100A1D8ED /* frevo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332446C125D5CA3100A1D8ED /* frevo.mp3 */; };
 		3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374842225CC97F90062C212 /* PopopopoApp.swift */; };
 		3374842525CC97F90062C212 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374842425CC97F90062C212 /* ContentView.swift */; };
 		3374842725CC97FB0062C212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3374842625CC97FB0062C212 /* Assets.xcassets */; };
@@ -25,9 +39,15 @@
 		3391CFA525D58D1100447054 /* PlaySounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3391CFA425D58D1100447054 /* PlaySounds.swift */; };
 		478EA89D25D44D6B00F818B2 /* SoundPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EA89C25D44D6B00F818B2 /* SoundPopup.swift */; };
 		478EA89E25D44D6B00F818B2 /* SoundPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 478EA89C25D44D6B00F818B2 /* SoundPopup.swift */; };
+		47A7E81525D5EC6600E07074 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47A7E81425D5EC6600E07074 /* Poppins-Bold.ttf */; };
+		47A7E81625D5EC6600E07074 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47A7E81425D5EC6600E07074 /* Poppins-Bold.ttf */; };
+		47A7E81E25D5EC8900E07074 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47A7E81D25D5EC8900E07074 /* Poppins-Regular.ttf */; };
+		47A7E81F25D5EC8900E07074 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47A7E81D25D5EC8900E07074 /* Poppins-Regular.ttf */; };
 		47B45DDD25D467FB005AFF8E /* teste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45DDC25D467FB005AFF8E /* teste.swift */; };
 		47B45DE525D484C7005AFF8E /* HelpPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45DE425D484C7005AFF8E /* HelpPopup.swift */; };
 		47B45DE625D484C7005AFF8E /* HelpPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45DE425D484C7005AFF8E /* HelpPopup.swift */; };
+		47B45E1725D5ADFB005AFF8E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45E1625D5ADFB005AFF8E /* MenuView.swift */; };
+		47B45E1825D5ADFB005AFF8E /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B45E1625D5ADFB005AFF8E /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +103,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		332446A925D5CA1200A1D8ED /* 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 6.mp3; sourceTree = "<group>"; };
+		332446AA25D5CA1300A1D8ED /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		332446AB25D5CA1300A1D8ED /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		332446AC25D5CA1300A1D8ED /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		332446AD25D5CA1300A1D8ED /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		332446AE25D5CA1300A1D8ED /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
+		332446C125D5CA3100A1D8ED /* frevo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = frevo.mp3; sourceTree = "<group>"; };
 		3374841F25CC97F90062C212 /* Popopopo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popopopo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3374842225CC97F90062C212 /* PopopopoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopopopoApp.swift; sourceTree = "<group>"; };
 		3374842425CC97F90062C212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,8 +138,11 @@
 		3391CF9525D3067200447054 /* CommonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonView.swift; sourceTree = "<group>"; };
 		3391CFA425D58D1100447054 /* PlaySounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySounds.swift; sourceTree = "<group>"; };
 		478EA89C25D44D6B00F818B2 /* SoundPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPopup.swift; sourceTree = "<group>"; };
+		47A7E81425D5EC6600E07074 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		47A7E81D25D5EC8900E07074 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		47B45DDC25D467FB005AFF8E /* teste.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste.swift; sourceTree = "<group>"; };
 		47B45DE425D484C7005AFF8E /* HelpPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPopup.swift; sourceTree = "<group>"; };
+		47B45E1625D5ADFB005AFF8E /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +191,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332446A825D5C9FF00A1D8ED /* audios */ = {
+			isa = PBXGroup;
+			children = (
+				332446AA25D5CA1300A1D8ED /* 1.mp3 */,
+				332446AD25D5CA1300A1D8ED /* 2.mp3 */,
+				332446AC25D5CA1300A1D8ED /* 3.mp3 */,
+				332446AB25D5CA1300A1D8ED /* 4.mp3 */,
+				332446AE25D5CA1300A1D8ED /* 5.mp3 */,
+				332446A925D5CA1200A1D8ED /* 6.mp3 */,
+				332446C125D5CA3100A1D8ED /* frevo.mp3 */,
+			);
+			path = audios;
+			sourceTree = "<group>";
+		};
 		3374841625CC97F90062C212 = {
 			isa = PBXGroup;
 			children = (
@@ -194,12 +238,15 @@
 				3374842425CC97F90062C212 /* ContentView.swift */,
 				3374842625CC97FB0062C212 /* Assets.xcassets */,
 				3374842B25CC97FB0062C212 /* Info.plist */,
+				332446A825D5C9FF00A1D8ED /* audios */,
 				47B45DDC25D467FB005AFF8E /* teste.swift */,
 				3374842825CC97FB0062C212 /* Preview Content */,
 				3391CF9525D3067200447054 /* CommonView.swift */,
 				3391CFA425D58D1100447054 /* PlaySounds.swift */,
+				47B45E1625D5ADFB005AFF8E /* MenuView.swift */,
 				47B45DE425D484C7005AFF8E /* HelpPopup.swift */,
 				478EA89C25D44D6B00F818B2 /* SoundPopup.swift */,
+				47A7E81325D5EC2000E07074 /* Fonts */,
 			);
 			path = Popopopo;
 			sourceTree = "<group>";
@@ -267,6 +314,16 @@
 				3391CF8125D3064A00447054 /* Info.plist */,
 			);
 			path = PopopoClipUITests;
+			sourceTree = "<group>";
+		};
+		47A7E81325D5EC2000E07074 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				47A7E81D25D5EC8900E07074 /* Poppins-Regular.ttf */,
+				47A7E81425D5EC6600E07074 /* Poppins-Bold.ttf */,
+			);
+			name = Fonts;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,7 +498,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332446B925D5CA1300A1D8ED /* 5.mp3 in Resources */,
+				332446B525D5CA1300A1D8ED /* 3.mp3 in Resources */,
+				332446B125D5CA1300A1D8ED /* 1.mp3 in Resources */,
+				332446AF25D5CA1300A1D8ED /* 6.mp3 in Resources */,
 				3374842A25CC97FB0062C212 /* Preview Assets.xcassets in Resources */,
+				332446C225D5CA3100A1D8ED /* frevo.mp3 in Resources */,
+				332446B325D5CA1300A1D8ED /* 4.mp3 in Resources */,
+				47A7E81525D5EC6600E07074 /* Poppins-Bold.ttf in Resources */,
+				47A7E81E25D5EC8900E07074 /* Poppins-Regular.ttf in Resources */,
+				332446B725D5CA1300A1D8ED /* 2.mp3 in Resources */,
 				3374842725CC97FB0062C212 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,7 +530,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332446BA25D5CA1300A1D8ED /* 5.mp3 in Resources */,
+				332446B625D5CA1300A1D8ED /* 3.mp3 in Resources */,
+				332446B225D5CA1300A1D8ED /* 1.mp3 in Resources */,
+				332446B025D5CA1300A1D8ED /* 6.mp3 in Resources */,
 				3391CF6925D3064A00447054 /* Preview Assets.xcassets in Resources */,
+				332446C325D5CA3100A1D8ED /* frevo.mp3 in Resources */,
+				332446B425D5CA1300A1D8ED /* 4.mp3 in Resources */,
+				47A7E81625D5EC6600E07074 /* Poppins-Bold.ttf in Resources */,
+				47A7E81F25D5EC8900E07074 /* Poppins-Regular.ttf in Resources */,
+				332446B825D5CA1300A1D8ED /* 2.mp3 in Resources */,
 				3391CF6625D3064A00447054 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +566,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478EA89D25D44D6B00F818B2 /* SoundPopup.swift in Sources */,
+				47B45E1725D5ADFB005AFF8E /* MenuView.swift in Sources */,
 				3374842525CC97F90062C212 /* ContentView.swift in Sources */,
 				47B45DDD25D467FB005AFF8E /* teste.swift in Sources */,
 				3374842325CC97F90062C212 /* PopopopoApp.swift in Sources */,
@@ -521,6 +597,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				478EA89E25D44D6B00F818B2 /* SoundPopup.swift in Sources */,
+				47B45E1825D5ADFB005AFF8E /* MenuView.swift in Sources */,
 				3391CF6425D3064900447054 /* ContentView.swift in Sources */,
 				3391CF6225D3064900447054 /* PopopoClipApp.swift in Sources */,
 				47B45DE625D484C7005AFF8E /* HelpPopup.swift in Sources */,
